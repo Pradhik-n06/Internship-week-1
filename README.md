@@ -1,7 +1,7 @@
 # Internship-week-1
-🔐 Cybersecurity Lab Environment Setup
-Building a Virtual Lab for Cybersecurity and Ethical Hacking Practice
-📌 Project Overview
+🔐 **Cybersecurity Lab Environment Setup
+Building a Virtual Lab for Cybersecurity and Ethical Hacking Practice**
+**📌 Project Overview**
 This project documents the setup of a virtual cybersecurity laboratory
 using Oracle VirtualBox and Kali Linux on a Windows host
 machine.
@@ -14,7 +14,7 @@ The work includes installing the required software, downloading and
 verifying the Kali Linux VirtualBox image, configuring a virtual
 network, importing the virtual machine, and successfully booting into
 the Kali Linux desktop.
-🎯 Objectives
+**🎯 Objectives**
 The main objectives of this project are to:
 - Install and configure Oracle VirtualBox.
 - Install 7-Zip to extract the Kali Linux virtual machine archive.
@@ -26,7 +26,7 @@ The main objectives of this project are to:
 - Start Kali Linux and confirm that the desktop loads successfully.
 - Inspect and verify the virtual machine's network configuration.
 - Capture screenshots documenting the setup process.
-🛡️ Purpose of the Lab
+**🛡️ Purpose of the Lab**
 This laboratory provides a controlled environment for cybersecurity
 learning and authorized security testing.
 
@@ -37,10 +37,10 @@ Future exercises may include:
 - Packet analysis
 - Web security testing
 - Security tool experimentation
-⚠️ Ethical Use: Use cybersecurity tools only on systems you own or
-have explicit permission to test.
+**⚠️ Ethical Use: Use cybersecurity tools only on systems you own or
+have explicit permission to test**.
 
-🏗️ Lab Architecture
+**🏗️ Lab Architecture**
 The lab uses Oracle VirtualBox to run Kali Linux as a virtual machine on
 a Windows host.
           Physical Computer
@@ -60,7 +60,7 @@ a Windows host.
           10.0.0.0/24
 Additional virtual machines can be added to the lab in future exercises
 if required.
-⚙️ Lab Configuration
+**⚙️ Lab Configuration**
   Component                           Configuration
   Host Operating System               Windows
 
@@ -87,7 +87,7 @@ Note: VM memory allocation, the guest IP address, gateway, and
 successful internet/LAN connectivity have not yet been verified. Update
 this table after checking the actual VM settings and Kali network
 configuration.
-🪜 Lab Setup Procedure
+**🪜 Lab Setup Procedure**
 Step 1: Prepare the Virtualization Environment
 Prepared the Windows computer for running virtual machines and obtained
 the software required for the lab.
@@ -186,34 +186,8 @@ actual result here.
 Status: The Kali desktop has been reached. Network interface
 inspection, guest IP configuration, and connectivity testing are still
 pending.
-📸 Project Screenshots
-Add your own screenshots to a folder named screenshots in this
-repository. Use the filenames below, or change the image paths to match
-your actual files.
-1. Oracle VirtualBox Manager
-Shows the Kali Linux virtual machine registered in VirtualBox Manager.
-
-2. CyberLab Network Configuration
-Shows the CyberLab NAT Network and its IPv4 prefix.
-
-3. Kali Linux Network Adapter Settings
-Shows the network adapter configuration for the Kali Linux virtual
-machine. Ensure the screenshot confirms the selected network name.
-
-4. Kali Linux Login / Desktop
-Shows that Kali Linux has started successfully and the desktop is
-accessible.
-
-5. Network Verification
-Add a screenshot of the terminal output from ip -br addr and
-nmcli connection show after completing the network checks.
-
-Important: These image paths are placeholders. Save the
-corresponding screenshots in the screenshots folder before
-publishing the README. Remove any screenshot section for which you do
-not have evidence.
-
-🐞 Problems Encountered and Troubleshooting
+ 
+**🐞 Problems Encountered and Troubleshooting**
 Problem 1: Duplicate Virtual Machine UUID
 Issue: VirtualBox reported that the VM configuration had the same
 UUID as an already registered virtual machine.
@@ -264,21 +238,21 @@ Through this project, I developed a better understanding of:
   missing virtual disk files.
 - Documentation: Why screenshots, command outputs, and clear setup
   instructions are important in technical projects.
-🔐 Security and Ethical Use
+**🔐 Security and Ethical Use**
 This laboratory is intended for educational purposes and authorized
 cybersecurity testing only.
 
 Any future scanning, penetration testing, or vulnerability assessment
 must be performed only on systems for which permission has been granted.
-🔗 Tools and Resources
+**🔗 Tools and Resources**
 - Oracle VirtualBox
 - Kali Linux
 - 7-Zip
 - VirtualBox User Manual
 👤 Author
-- Name: \(Your Name\)
-- Program: \(Your Program / Course\)
-- Organization: \(Your Organization, if applicable\)
+- Name: Pradhik Nair
+- Program: Internship
+- Organization: Networkwalks
 - Project: Cybersecurity Lab Environment Setup
 📌 Project Information
   Field                               Details
